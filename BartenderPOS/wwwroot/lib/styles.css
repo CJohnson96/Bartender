@@ -1,0 +1,160 @@
+﻿.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+body {
+    color: #863cb2;
+    background-color: #ccccff;
+
+}
+h1 {
+    color: #0055ff;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+}
+h3 {
+    color: #0055ff;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    font: bold;
+}
+h4 {
+    color: rgb(165, 85, 160);
+    text-align: center;
+    width: 100%;
+    font-size: small;
+}
+h5 {
+    color: rgb(165, 85, 160);
+    text-align: center;
+    width: 100%;
+    font-size: small;
+}
+header {
+}
+p{
+    font-size: medium;
+    font-style: italic;
+    color: slategrey;
+    font-family:Forte;
+}
+
+.text-center {
+    text-align: center;
+}
+.media {
+    margin-top: 15px;
+}
+.media heading {
+        margin-top: 0;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+.media-body {
+    width: 10000px;
+    text-align: center;
+    
+}
+.text-left {
+    text-align: left;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-group-vertical > .btn {
+    position: relative;
+    float: left;
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.btn-primary {
+    color: #ac3973;
+    background-color: #99ff99;
+    border-color: #2e6da4;
+}
+#grid{
+    float: left;
+    width: 500px;
+    
+}
+#grid div{
+    float: left;
+    padding: 35px;
+    width: 500px;
+   
+}
+#grid div img {
+   
+    width: 500px;
+    height: auto;
+
+}
+nav.TOPnavbar li {
+    font-size: 87.5%;
+    float: left;
+    padding: 15px 0px;
+    text-align: center;
+    width: 20%;
+    list-style-type: none;
+}
+
+nav.TOPnavbar {
+    margin-left: 33%;
+    width: 66%;
+}
+
+    nav.TOPnavbar li a {
+        color: mediumseagreen;
+    }
+
+    ul{
+        background-color: #99ff99;
+    }
+li a:hover {
+    background-color: #555;
+    color: white;
+}

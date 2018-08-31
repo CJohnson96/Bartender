@@ -1,0 +1,45 @@
+﻿@{
+    
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/lib/styles.css" />
+</head>
+<body>
+    <nav class="TOPnavbar" align="center">
+        <ul>
+            <li><a asp-action="HomePage">Home</a></li>
+            <li><a asp-action="DrinkMenu">Drink Menu</a></li>
+            <li><a asp-action="OrderQueue">Order Queue</a></li>
+        </ul>
+    </nav>
+    <div class="text-center">
+        <br />
+        <br />
+        <h3>Welcome To The E-Bar</h3>
+        <br />
+        <h4>Check out our menu</h4>
+        
+        <a class="btn btn-primary" asp-action="DrinkMenu">Drink Menu</a>
+
+    </div>
+    <div class="text-center">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h4>ORDERS TO BE FULFILLED</h4>
+        <a class="btn btn-success" asp-action="OrderQueue">Make These Drinks Bartender Man</a>
+    </div>
+</body>
+</html>
+
