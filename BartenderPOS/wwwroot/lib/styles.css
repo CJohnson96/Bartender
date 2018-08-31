@@ -44,10 +44,20 @@ h4 {
     font-size: small;
 }
 h5 {
-    color: rgb(165, 85, 160);
+    color: #b3b300;
     text-align: center;
     width: 100%;
-    font-size: small;
+    font-size: x-large;
+    font-style: inherit;
+    font: bold;
+}
+h6 {
+    color: #400080;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    font-style: inherit;
+    font: bolder;
 }
 header {
 }

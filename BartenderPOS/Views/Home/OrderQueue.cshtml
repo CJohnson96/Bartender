@@ -18,8 +18,22 @@
             <li><a asp-action="OrderQueue">Order Queue</a></li>
             </ul>
         </nav>
-    <p>
-        test @Model.Honduran
-    </p>
+    <div class="text-center">
+        <br />
+        <br />
+        <h3>View Your Order Queue</h3>
+        <br />
+        <br />
+        <h5> Your order of @Model.Honduran Honduran Lime </h5>
+        <h5>               @Model.Rum Tropical Rum </h5>
+        <h5>               @Model.LocalBrew bottle(s) of local beers </h5>
+        <h5>               @Model.Doublepint Double Pint </h5>
+        <h5>               @Model.PitcherPour pitcher(s)</h5>
+        <br />
+        <h6> Will be brought to you by the bartender Shortly</h6>
+        <br />
+        <br />
+        <h6>Thanks for supporting your local E-Bar</h6>
+    </div> 
 </body>
 </html>

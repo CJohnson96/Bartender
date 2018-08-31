@@ -22,66 +22,70 @@
         <div id="grid" align="center">
             <form class="p-a-1" asp-action="DrinkMenu" method="post">
                 <div id="D1">
-                    <br />
+                    
                     <br />
                     <a><img src="~/images/HonduranLime.jpg" rel="Limey" width="450" height="350" /></a>
                     <p>
                         Honduran Lime Delight
                         $17.99
                     </p>
-                    <input class="form-control" asp-for="Honduran" />
+                    <br />
+                    <input class="form-control" asp-for="Honduran" placeholder="Quantity"/>
+                    <br />
                     <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
-
                     <br />
-                    <br />
+                    
                 </div>
                 <div id="D2" align="center">
-                    <br />
                     <br />
                     <a><img src="~/images/MangoShipwreck.jpg" rel="Rum" width="475" height="350" /></a>
                     <p>
                         Classic Tropical Rum
                         $10.50
                     </p>
-                    <input class="form-control" asp-for="Rum" />
-                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
+                    <input class="form-control" asp-for="Rum" placeholder="Quantity"/>
+                    <br />
+                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
                 </div>
                 <div id="D3" align="center">
-                    <br />
                     <br />
                     <a><img src="~/images/LocalBrews.png" rel="LocallyBrewed" width="500" height="350" /></a>
                     <p>
                         Local Best Brews
                         $12.50
                     </p>
-                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
+                    <input class="form-control" asp-for="LocalBrew" placeholder="Quantity"/>
+                    <br />
+                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
                 </div>
                 <div id="D4" align="center">
-                    <br />
                     <br />
                     <a><img src="~/images/YeOleDoublePint.jpg" rel="2Pint" width="500" height="350" /></a>
                     <p>
                         Ole german Double Fister (Double Pint)
                         $22.05
                     </p>
-                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
+                    <input class="form-control" asp-for="Doublepint" placeholder="Quantity"/>
+                    <br />
+                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
                 </div>
                 <div id="D5" align="center">
-                    <br />
                     <br />
                     <a><img src="~/images/LastOneForNight.jpg" rel="LOFTN" width="500" height="350" /></a>
                     <p>
                         last Drink For The Night
                         $25.50
                     </p>
-                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
+                    <input class="form-control" asp-for="PitcherPour" placeholder="Quantity"/>
+                    <br />
+                    <input type="Submit" value="Select" class="btn btn-danger" asp-action="OrderQueue" />
                     <br />
                 </div>
             </form>
